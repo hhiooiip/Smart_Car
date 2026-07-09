@@ -1,0 +1,35 @@
+# Keil MDK build output
+MDK-ARM/xunjiPID/
+MDK-ARM/*.lst
+MDK-ARM/*.htm
+MDK-ARM/*.map
+MDK-ARM/*.dep
+MDK-ARM/*.d
+MDK-ARM/*.o
+MDK-ARM/*.crf
+MDK-ARM/*.lnp
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.elf
+MDK-ARM/*.sct
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+MDK-ARM/.pack/
+
+# Keil temp files
+*.bak
+*.uvguix.*
+JLinkLog.txt
+JLink/
+
+# IDE
+.vscode/
+.clangd
+.claude/
+.settings/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
