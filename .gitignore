@@ -23,11 +23,22 @@ MDK-ARM/.pack/
 JLinkLog.txt
 JLink/
 
+# CMSIS - only keep what the project needs
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/DAP/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/Core/Template/
+Drivers/CMSIS/Documentation/
+
 # IDE
 .vscode/
 .clangd
 .claude/
 .settings/
+.mxproject
 
 # OS
 Thumbs.db
